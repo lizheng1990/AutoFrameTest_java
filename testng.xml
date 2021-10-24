@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="TestNGTest">
+        <classes>
+            <class name="com.lizheng.test.demoTestNG">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+            <class name="com.lizheng.test.sendMailTestNG">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TestParameterXML">
+        <parameter name="dbconfig" value="src\main\resources\db.properties" />
+        <parameter name="poolsize" value="10" />
+        <classes>
+            <class name="com.lizheng.test.TestParameterXML">
+                <methods>
+                    <include name="createConnection"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TestParameterDataProvider">
+        <classes>
+            <class name="com.lizheng.test.TestParameterDataProvider">
+<!--                <methods>-->
+<!--                    <include name="createConnection"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TestParameterDataProvider2">
+        <classes>
+            <class name="com.lizheng.test.TestParameterDataProvider2">
+                <!--                <methods>-->
+                <!--                    <include name="createConnection"/>-->
+                <!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="TestParameterDataProvider3">
+        <classes>
+            <class name="com.lizheng.test.TestParameterDataProvider3">
+                <!--                <methods>-->
+                <!--                    <include name="createConnection"/>-->
+                <!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="AutoTestFrameTestNG">
+        <classes>
+            <class name="com.lizheng.test.AutoTestFrameTestNG">
+                <!--                <methods>-->
+                <!--                    <include name="createConnection"/>-->
+                <!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>

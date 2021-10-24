@@ -1,0 +1,26 @@
+2021/10/20 22:15:45,015  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:45,026  [INFO ] : 解析的实际结果是：查询成功
+2021/10/20 22:15:45,026  [INFO ] : 校验成功!!!
+2021/10/20 22:15:45,117  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/20 22:15:45,127  [INFO ] : 解析的实际结果是：用户已退出登录
+2021/10/20 22:15:45,127  [INFO ] : 校验成功!!!
+2021/10/20 22:15:45,220  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/20 22:15:45,231  [INFO ] : 解析的实际结果是：200
+2021/10/20 22:15:45,231  [INFO ] : 校验成功!!!
+2021/10/20 22:15:45,241  [INFO ] : 存储参数45e400f7c662485e9c5cb221e3e6c4d2为token的值成功!!!
+2021/10/20 22:15:45,251  [INFO ] : 添加header成功!!!
+2021/10/20 22:15:45,262  [INFO ] : 使用cookie成功!!!
+2021/10/20 22:15:45,272  [INFO ] : 存储参数test4947520306为registername的值成功!!!
+2021/10/20 22:15:45,386  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/20 22:15:45,388  [ERROR] : 解析json并断言失败!!!
+2021/10/20 22:15:45,398  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> Not Found</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/20 22:15:45,482  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/20 22:15:45,492  [INFO ] : 解析的实际结果是：恭喜您，登录成功
+2021/10/20 22:15:45,502  [INFO ] : 校验成功!!!
+2021/10/20 22:15:45,502  [INFO ] : 存储参数6为userid的值成功!!!
+2021/10/20 22:15:45,603  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/20 22:15:45,624  [INFO ] : 解析的实际结果是：查询成功
+2021/10/20 22:15:45,624  [INFO ] : 校验成功!!!
+2021/10/20 22:15:45,715  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/20 22:15:45,725  [INFO ] : 解析的实际结果是：用户已退出登录
+2021/10/20 22:15:45,725  [INFO ] : 校验成功!!!

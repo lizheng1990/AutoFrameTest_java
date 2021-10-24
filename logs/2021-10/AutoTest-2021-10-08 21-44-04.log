@@ -1,0 +1,47 @@
+2021/10/08 21:44:04,019  [INFO ] : 解析的实际结果是：非法请求
+2021/10/08 21:44:04,032  [INFO ] : 校验成功!!!
+2021/10/08 21:44:04,034  [INFO ] : 添加header成功!!!
+2021/10/08 21:44:04,114  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:44:04,117  [INFO ] : 解析的实际结果是：非法请求
+2021/10/08 21:44:04,117  [INFO ] : 校验成功!!!
+2021/10/08 21:44:04,119  [INFO ] : 添加header成功!!!
+2021/10/08 21:44:04,197  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:44:04,199  [INFO ] : 解析的实际结果是：非法请求
+2021/10/08 21:44:04,199  [INFO ] : 校验成功!!!
+2021/10/08 21:44:04,201  [INFO ] : 添加header成功!!!
+2021/10/08 21:44:04,277  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:44:04,279  [INFO ] : 解析的实际结果是：非法请求
+2021/10/08 21:44:04,280  [INFO ] : 校验成功!!!
+2021/10/08 21:44:04,283  [INFO ] : 清除header成功!!!
+2021/10/08 21:44:04,364  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/08 21:44:04,367  [ERROR] : 解析json并断言失败!!!
+2021/10/08 21:44:04,367  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> The requested resource [&#47;inter&#47;HTTP&#47;auth] is not available</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/08 21:44:04,369  [ERROR] : 存储参数时解析json失败！！！
+2021/10/08 21:44:04,369  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> The requested resource [&#47;inter&#47;HTTP&#47;auth] is not available</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/08 21:44:04,371  [INFO ] : 添加header成功!!!
+2021/10/08 21:44:04,457  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:44:04,458  [INFO ] : 解析的实际结果是：406
+2021/10/08 21:44:04,459  [ERROR] : 校验失败!!!
+2021/10/08 21:44:04,460  [INFO ] : 添加header成功!!!
+2021/10/08 21:44:04,544  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:44:04,546  [INFO ] : 解析的实际结果是：406
+2021/10/08 21:44:04,547  [ERROR] : 校验失败!!!
+2021/10/08 21:44:04,622  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/08 21:44:04,623  [INFO ] : 解析的实际结果是：406
+2021/10/08 21:44:04,623  [INFO ] : 校验成功!!!
+2021/10/08 21:44:04,625  [INFO ] : 清除header成功!!!
+2021/10/08 21:44:04,701  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:44:04,703  [ERROR] : 解析json并断言失败!!!
+2021/10/08 21:44:04,703  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> The requested resource [&#47;inter&#47;HTTP&#47;auth] is not available</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/08 21:44:04,704  [ERROR] : 存储参数时解析json失败！！！
+2021/10/08 21:44:04,704  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> The requested resource [&#47;inter&#47;HTTP&#47;auth] is not available</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/08 21:44:04,705  [INFO ] : 添加header成功!!!
+2021/10/08 21:44:04,784  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:44:04,787  [ERROR] : 解析json并断言失败!!!
+2021/10/08 21:44:04,787  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> The requested resource [&#47;inter&#47;HTTP&#47;login] is not available</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/08 21:44:04,875  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:44:04,877  [ERROR] : 解析json并断言失败!!!
+2021/10/08 21:44:04,877  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> The requested resource [&#47;inter&#47;HTTP&#47;login] is not available</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/08 21:44:04,977  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:44:04,978  [ERROR] : 解析json并断言失败!!!
+2021/10/08 21:44:04,978  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> The requested resource [&#47;inter&#47;HTTP&#47;login] is not available</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>

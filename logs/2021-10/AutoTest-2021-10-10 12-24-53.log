@@ -1,0 +1,56 @@
+2021/10/10 12:24:53,004  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 12:24:53,017  [INFO ] : 解析的实际结果是：200
+2021/10/10 12:24:53,018  [INFO ] : 校验成功!!!
+2021/10/10 12:24:53,019  [INFO ] : 存储参数84e98378df394ddb99ab54cfbac47a50为token的值成功!!!
+2021/10/10 12:24:53,019  [INFO ] : 添加header成功!!!
+2021/10/10 12:24:53,120  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 12:24:53,121  [INFO ] : 解析的实际结果是：200
+2021/10/10 12:24:53,122  [INFO ] : 校验成功!!!
+2021/10/10 12:24:53,123  [INFO ] : 添加header成功!!!
+2021/10/10 12:24:53,212  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 12:24:53,214  [INFO ] : 解析的实际结果是：406
+2021/10/10 12:24:53,215  [ERROR] : 校验失败!!!
+2021/10/10 12:24:53,295  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/10 12:24:53,297  [INFO ] : 解析的实际结果是：200
+2021/10/10 12:24:53,297  [INFO ] : 校验成功!!!
+2021/10/10 12:24:53,300  [INFO ] : 清除header成功!!!
+2021/10/10 12:24:53,388  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 12:24:53,389  [INFO ] : 解析的实际结果是：200
+2021/10/10 12:24:53,389  [INFO ] : 校验成功!!!
+2021/10/10 12:24:53,390  [INFO ] : 存储参数bc5f396afbe44e0093173104fc6e52ab为token的值成功!!!
+2021/10/10 12:24:53,391  [INFO ] : 添加header成功!!!
+2021/10/10 12:24:53,468  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 12:24:53,472  [ERROR] : 解析json并断言失败!!!
+2021/10/10 12:24:53,472  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/10 12:24:53,554  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 12:24:53,556  [INFO ] : 解析的实际结果是：402
+2021/10/10 12:24:53,557  [ERROR] : 校验失败!!!
+2021/10/10 12:24:53,640  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 12:24:53,642  [ERROR] : 解析json并断言失败!!!
+2021/10/10 12:24:53,642  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/10 12:24:53,733  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 12:24:53,735  [INFO ] : 解析的实际结果是：200
+2021/10/10 12:24:53,735  [INFO ] : 校验成功!!!
+2021/10/10 12:24:53,819  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 12:24:53,820  [INFO ] : 解析的实际结果是：200
+2021/10/10 12:24:53,821  [ERROR] : 校验失败!!!
+2021/10/10 12:24:53,910  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 12:24:53,911  [INFO ] : 解析的实际结果是：402
+2021/10/10 12:24:53,912  [INFO ] : 校验成功!!!
+2021/10/10 12:24:53,996  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 12:24:53,998  [INFO ] : 解析的实际结果是：401
+2021/10/10 12:24:53,998  [INFO ] : 校验成功!!!

@@ -1,0 +1,4 @@
+2021/10/10 15:52:58,205  [INFO ] : 强制等待3秒成功！！！
+2021/10/10 15:52:58,832  [INFO ] : 点击xpath元素："/html/body/div[4]/div/div/div/div[2]/div[2]/div[1]/a"成功！！！
+2021/10/10 15:52:58,860  [INFO ] : 滑动到xpath为"/html/body/div[14]/div/button"的元素成功！！！
+2021/10/10 15:52:58,922  [INFO ] : 点击xpath元素："/html/body/div[14]/div/button"成功！！！

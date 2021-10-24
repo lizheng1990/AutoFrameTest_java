@@ -1,0 +1,30 @@
+2021/10/08 21:20:55,338  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:20:55,378  [INFO ] : 解析的实际结果是：200
+2021/10/08 21:20:55,380  [ERROR] : 校验失败!!!
+2021/10/08 21:20:55,381  [INFO ] : 清除header成功!!!
+2021/10/08 21:20:55,465  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:20:55,468  [INFO ] : 解析的实际结果是：非法请求
+2021/10/08 21:20:55,468  [INFO ] : 校验成功!!!
+2021/10/08 21:20:55,471  [INFO ] : 添加header成功!!!
+2021/10/08 21:20:55,559  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:20:55,560  [INFO ] : 解析的实际结果是：非法请求
+2021/10/08 21:20:55,560  [INFO ] : 校验成功!!!
+2021/10/08 21:20:55,561  [INFO ] : 添加header成功!!!
+2021/10/08 21:20:55,643  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:20:55,645  [INFO ] : 解析的实际结果是：非法请求
+2021/10/08 21:20:55,646  [INFO ] : 校验成功!!!
+2021/10/08 21:20:55,648  [INFO ] : 添加header成功!!!
+2021/10/08 21:20:55,729  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:20:55,731  [INFO ] : 解析的实际结果是：非法请求
+2021/10/08 21:20:55,731  [INFO ] : 校验成功!!!
+2021/10/08 21:20:55,733  [INFO ] : 清除header成功!!!
+2021/10/08 21:20:55,814  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:20:55,817  [ERROR] : 解析json并断言失败!!!
+2021/10/08 21:20:55,817  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> The requested resource [&#47;inter&#47;HTTP&#47;auth] is not available</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/08 21:20:55,818  [ERROR] : 存储参数时解析json失败！！！
+2021/10/08 21:20:55,818  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> The requested resource [&#47;inter&#47;HTTP&#47;auth] is not available</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/08 21:20:55,818  [INFO ] : 添加header成功!!!
+2021/10/08 21:20:55,910  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/08 21:20:55,911  [INFO ] : 解析的实际结果是：406
+2021/10/08 21:20:55,913  [ERROR] : 校验失败!!!
+2021/10/08 21:20:55,913  [INFO ] : 添加header成功!!!

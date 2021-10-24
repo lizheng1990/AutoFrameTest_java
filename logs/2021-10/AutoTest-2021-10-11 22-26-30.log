@@ -1,0 +1,3 @@
+2021/10/11 22:26:28,229  [ERROR] : 邮件配置有问题，请检查！！！
+2021/10/11 22:26:28,257  [ERROR] : com.sun.mail.smtp.SMTPSendFailedException: 502 Invalid input from 106.84.23.107 to newxmesmtplogicsvrszc8.qq.com.
+

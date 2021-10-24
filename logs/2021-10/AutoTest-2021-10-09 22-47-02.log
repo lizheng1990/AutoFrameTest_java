@@ -1,0 +1,18 @@
+2021/10/09 22:47:00,118  [INFO ] : 执行指定类型的post请求成功！！！
+2021/10/09 22:47:00,150  [ERROR] : 解析SOAP使用的正则表达式有问题，请检查！
+2021/10/09 22:47:00,293  [ERROR] : 存储参数时解析json失败！！！
+2021/10/09 22:47:00,294  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body><S:Fault xmlns:ns4="http://www.w3.org/2003/05/soap-envelope"><faultcode>S:Server</faultcode><faultstring>java.lang.NullPointerException</faultstring></S:Fault></S:Body></S:Envelope>
+2021/10/09 22:47:00,296  [INFO ] : 添加header成功!!!
+2021/10/09 22:47:00,296  [INFO ] : 使用cookie成功!!!
+2021/10/09 22:47:00,297  [INFO ] : 获取13位时间戳成功！！！
+2021/10/09 22:47:00,297  [INFO ] : 存储参数test0297为registername的值成功!!!
+2021/10/09 22:47:00,378  [INFO ] : 执行指定类型的post请求成功！！！
+2021/10/09 22:47:00,379  [INFO ] : 解析SOAP的结果是：{"status":406,"msg":"非法请求"}
+2021/10/09 22:47:00,456  [INFO ] : 执行指定类型的post请求成功！！！
+2021/10/09 22:47:00,456  [INFO ] : 解析SOAP的结果是：{"status":406,"msg":"非法请求"}
+2021/10/09 22:47:00,466  [ERROR] : 存储参数时解析json失败！！！
+2021/10/09 22:47:00,466  [ERROR] : java.lang.NullPointerException
+2021/10/09 22:47:00,555  [INFO ] : 执行指定类型的post请求成功！！！
+2021/10/09 22:47:00,556  [INFO ] : 解析SOAP的结果是：{"status":406,"msg":"非法请求"}
+2021/10/09 22:47:00,641  [INFO ] : 执行指定类型的post请求成功！！！
+2021/10/09 22:47:00,642  [INFO ] : 解析SOAP的结果是：{"status":406,"msg":"非法请求"}

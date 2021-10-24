@@ -1,0 +1,57 @@
+2021/10/10 15:08:16,041  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 15:08:16,062  [ERROR] : 解析json并断言失败!!!
+2021/10/10 15:08:16,062  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/10 15:08:16,142  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 15:08:16,142  [INFO ] : 解析的实际结果是：402
+2021/10/10 15:08:16,142  [INFO ] : 校验成功!!!
+2021/10/10 15:08:16,225  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 15:08:16,235  [ERROR] : 解析json并断言失败!!!
+2021/10/10 15:08:16,235  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/10 15:08:16,307  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 15:08:16,307  [INFO ] : 解析的实际结果是：401
+2021/10/10 15:08:16,307  [INFO ] : 校验成功!!!
+2021/10/10 15:08:16,399  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 15:08:16,399  [INFO ] : 解析的实际结果是：401
+2021/10/10 15:08:16,399  [INFO ] : 校验成功!!!
+2021/10/10 15:08:16,476  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 15:08:16,476  [INFO ] : 解析的实际结果是：402
+2021/10/10 15:08:16,476  [INFO ] : 校验成功!!!
+2021/10/10 15:08:16,568  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 15:08:16,577  [INFO ] : 解析的实际结果是：401
+2021/10/10 15:08:16,577  [INFO ] : 校验成功!!!
+2021/10/10 15:08:16,662  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 15:08:16,662  [INFO ] : 解析的实际结果是：401
+2021/10/10 15:08:16,662  [INFO ] : 校验成功!!!
+2021/10/10 15:08:16,745  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 15:08:16,745  [INFO ] : 解析的实际结果是：402
+2021/10/10 15:08:16,745  [INFO ] : 校验成功!!!
+2021/10/10 15:08:16,833  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 15:08:16,833  [INFO ] : 解析的实际结果是：402
+2021/10/10 15:08:16,833  [INFO ] : 校验成功!!!
+2021/10/10 15:08:16,914  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 15:08:16,914  [ERROR] : 解析json并断言失败!!!
+2021/10/10 15:08:16,914  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/10 15:08:16,993  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 15:08:16,993  [INFO ] : 解析的实际结果是：200
+2021/10/10 15:08:16,993  [INFO ] : 校验成功!!!

@@ -1,0 +1,1463 @@
+<html>
+<head>
+<title>TestNG:  AutoTestFrameTestNG</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AutoTestFrameTestNG</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>166/7/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 20 22:16:25 CST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>11 seconds (11488 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 47, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td><div><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2010466881", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2010466881'><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 51, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td><div><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1085622114", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1085622114'><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 67, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td><div><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div><a href='#' onClick='toggleBox("stack-trace197470785", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace197470785'><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 71, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td><div><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div><a href='#' onClick='toggleBox("stack-trace424504", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace424504'><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 87, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td><div><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1398327546", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1398327546'><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 153, , assertJsonEqual, $.msg, 恭喜您，登录成功, , , , , , , </td>
+<td><div><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1425169218", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1425169218'><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 166, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td><div><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2049393953", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2049393953'><pre>java.lang.AssertionError: expected [pass] but found [fail]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 1, 无token, 无token, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//auth, , , , , , , </td>
+<td></td>
+<td>1</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 2, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 3, , , assertJsonContains, $.msg, success, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 4, token为空, 添加头, addHeader, {"token":""}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 5, , 空token, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//auth, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 6, , , assertJsonContains, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 7, token过长, 添加头, addHeader, {"token":"adsfklajfkalfkalfaklsdjfkadsljfklasdfjaldsfjklasdfjkdsajfklds"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 8, , token过长, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//auth, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 9, , , assertJsonContains, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 10, , 保存参数, saveParam, token, $.token, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 11, 正常token, 更新头, addHeader, {"token":"5c4e6acab39e4072814e2af85bb300aa"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 12, , 有效token, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//auth, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 13, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 14, 已授权token, 更新头, addHeader, {"token":"{{token}}"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 15, , 已授权token, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//auth, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 16, , , assertJsonEqual, $.status, 201, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 17, 无token, 清空头域, clearHeader, , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 18, , 无token登录, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=1234567, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 19, , , assertJsonEqual, $.msg, 非法请求, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 20, 空token, 添加空token, addHeader, {”token”:""}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 21, , 无token登录, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=1234567, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 22, , , assertJsonEqual, $.msg, 非法请求, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 23, token过长, token过长, addHeader, {"token":"adsfklajfkalfkalfaklsdjfkadsljfklasdfjaldsfjklasdfjkdsajfklds"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 24, , 无token登录, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=1234567, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 25, , , assertJsonEqual, $.msg, 非法请求, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 26, token未授权, 添加未授权token, addHeader, {"token":"0d862fe621ae4bca86489a554945b202"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 27, , 未授权token登录, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=1234567, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 28, , , assertJsonEqual, $.msg, 非法请求, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 29, token授权, 清空token, clearHeader, , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 30, , 请求auth授权, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//auth, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 31, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 32, , 保存头域, saveParam, token, $.token, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 33, , 更新头域, addHeader, {"token":"{{token}}"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 34, , 有效token登录, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 35, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 36, token已经登录, 更新头域, addHeader, {"token":"{{token}}"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 37, , 有效token, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 38, , , assertJsonEqual, $.status, 406, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 39, , 注销登录, doPostWithoutParam, http://8.142.92.43:8080/Inter/HTTP//logout, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 40, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 41, 无用户名, 清空token, clearHeader, , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 42, , 请求auth授权, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//auth, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 43, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 44, , 保存头域, saveParam, token, $.token, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 45, , 更新头域, addHeader, {"token":"{{token}}"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 46, , 无用户名, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 48, 用户名为空, 用户名为空, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 49, , , assertJsonEqual, $.status, 402, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 50, 用户名特殊字符, 用户名特殊字符, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=#￥%a&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 52, , 用户名特殊字符, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=?〓?a&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 53, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 54, , 用户名emoji表情, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=Wil??l&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 55, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 56, 用户名特殊字符, 用户名2位, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=ll&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 57, , , assertJsonEqual, $.status, 402, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 58, , 用户名3位, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=ill&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 59, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 60, , 用户名16位, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=WillWillWillWill&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 61, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 62, , 用户名17位, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=W1illWillWillWill&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 63, , , assertJsonEqual, $.status, 402, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 64, , 用户名过长, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=W1illWillWillWillW1illWillWillWillW1illWillWillWillW1illWillWillWill&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 65, , , assertJsonEqual, $.status, 402, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 66, 无密码, 无密码, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 68, 密码为空, 密码为空, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 69, , , assertJsonEqual, $.status, 402, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 70, 密码特殊字符, 密码特殊字符, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=#￥%a, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 72, , 密码特殊字符, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=?〓?a, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 73, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 74, , 密码emoji表情, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=??adaa, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 75, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 76, 用户名特殊字符, 密码2位, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=12, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 77, , , assertJsonEqual, $.status, 402, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 78, , 密码3位, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=123, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 79, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 80, , 密码16位, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=1234561234561234, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 81, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 82, , 密码17位, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=12345612345612345, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 83, , , assertJsonEqual, $.status, 402, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 84, , 密码过长, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=123456123456123456123456123456123456123456123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 85, , , assertJsonEqual, $.status, 402, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 86, 无用户名密码, 无用户名密码, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 88, 参数冗余, 3个参数, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&aaa=bbb&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 89, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 90, , 注销登录, doPostWithoutParam, http://8.142.92.43:8080/Inter/HTTP//logout, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 91, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 92, , 清空token, clearHeader, , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 93, , 请求auth授权, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//auth, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 94, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 95, , 保存头域, saveParam, token, $.token, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 96, , 更新头域, addHeader, {"token":"{{token}}"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 97, 等价类用例, 用户名密码错误, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=1253, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 98, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 99, , 用户名不存在, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=Wilil&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 100, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 101, , 用户名密码不匹配, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=tufei, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 102, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 103, , 用户名密码正确, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 104, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 105, SQL注入, 注销登录, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//logout, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 106, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 107, , 清空token, clearHeader, , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 108, , 请求auth授权, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//auth, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 109, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 110, , 保存头域, saveParam, token, $.token, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 111, , 更新头域, addHeader, {"token":"{{token}}"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 112, , 用户名sql注入, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng' or 1=1 #&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 113, , , assertJsonEqual, $.status, 402, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 114, , 密码sql注入, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng&password=123' or 1=1 #, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 115, , , assertJsonEqual, $.status, 401, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 116, 无token, 清空头域, clearHeader, , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 117, , 无token注销, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//logout, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 118, , , assertJsonEqual, $.status, 405, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 119, 空token, 添加空token, addHeader, {”token”:""}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 120, , 空token注销, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//logout, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 121, , , assertJsonEqual, $.msg, 非法请求, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 122, token过长, token过长, addHeader, {"token":"adsfklajfkalfkalfaklsdjfkadsljfklasdfjaldsfjklasdfjkdsajfklds"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 123, , token过长注销, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//logout, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 124, , , assertJsonEqual, $.msg, 非法请求, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 125, token未授权, 添加空token, addHeader, {"token":"0d862fe621ae4bca86489a554945b202"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 126, , 未授权token注销, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//logout, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 127, , , assertJsonEqual, $.msg, 非法请求, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 128, token未登录, 清空token, clearHeader, , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 129, , 请求auth授权, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//auth, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 130, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 131, , 保存头域, saveParam, token, $.token, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 132, , 更新头域, addHeader, {"token":"{{token}}"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 133, , 注销登录, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//logout, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 134, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 135, token已登录, 清空token, clearHeader, , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 136, , 请求auth授权, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//auth, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 137, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 138, , 保存头域, saveParam, token, $.token, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 139, , 更新头域, addHeader, {"token":"{{token}}"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 140, , 有效token, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username=lizheng1&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 141, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 142, , 注销登录, doPostWithoutParam, http://8.142.92.43:8080/Inter/HTTP//logout, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 143, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 144, 注册用户, 鉴权接口签发token, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//auth, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 145, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 146, , 保存参数, saveParam, token, $.token, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 147, , 添加头域, addHeader, {"token":"{{token}}"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 148, , 使用cookie, useCookie, , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 149, , 保存随机注册用户名, saveParam, registername, test9282252779, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 150, , 注册, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//register, username={{registername}}&pwd=123456&nickname=test32312&describe=测试号码, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 151, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 152, 登录, 登录, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//login, username={{registername}}&password=123456, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 154, , 保存参数, saveParam, userid, $.userid, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 155, 用户信息, 获取用户信息, doPostByUrl, http://8.142.92.43:8080/Inter/HTTP//getUserInfo, id={{userid}}, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 156, , , assertJsonEqual, $.msg, 查询成功, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 157, 用户信息, 登出, doPostWithoutParam, http://8.142.92.43:8080/Inter/HTTP//logout, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 158, , , assertJsonEqual, $.msg, 用户已退出登录, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 159, 注册用户, 鉴权接口签发token, doPostWithoutParam, http://8.142.92.43:8080/Inter/REST/auth, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 160, , , assertJsonEqual, $.status, 200, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 161, , 保存参数, saveParam, token, $.token, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 162, , 添加头域, addHeader, {"token":"{{token}}"}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 163, , 使用cookie, useCookie, , , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 164, , 保存随机注册用户名, saveParam, registername, test6933776104, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 165, , 注册, doPostWithoutParam, http://8.142.92.43:8080/Inter/REST/user/%7B%22name%22:%22{{registername}}%22,%22pwd%22:%22123456%22,%22nickname%22:%22{{registername}}%22,%22describe%22:%22测试号码%22%7D, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 167, 登录, 登录, doPostWithoutParam, http://8.142.92.43:8080/Inter/REST/login/lizheng/123456, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 168, , , assertJsonEqual, $.msg, 恭喜您，登录成功, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 169, , 保存参数, saveParam, userid, $.userid, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 170, 用户信息, 获取用户信息, doPostWithoutParam, http://8.142.92.43:8080/Inter/REST/login/{{userid}}, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 171, , , assertJsonEqual, $.msg, 查询成功, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 172, 用户信息, 登出, doPostWithoutParam, http://8.142.92.43:8080/Inter/REST/login, , , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+<tr>
+<td title='com.lizheng.test.AutoTestFrameTestNG.autoTest()'><b>autoTest</b><br>Test class: com.lizheng.test.AutoTestFrameTestNG<br>Parameters: 173, , , assertJsonEqual, $.msg, 用户已退出登录, , , , , , </td>
+<td></td>
+<td>0</td>
+<td>com.lizheng.test.AutoTestFrameTestNG@6d366c9b</td></tr>
+</table><p>
+</body>
+</html>

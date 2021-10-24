@@ -1,0 +1,11 @@
+2021/10/09 23:25:04,073  [INFO ] : 强制等待10秒成功！！！
+2021/10/09 23:25:04,093  [ERROR] : 关闭浏览器失败！！！
+2021/10/09 23:25:04,093  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.closeBrowser(DDTOfWeb.java:780) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:56) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]

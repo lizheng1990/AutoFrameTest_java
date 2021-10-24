@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="14.92" tests="186" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\java_project\AutoTest\target\test-classes;D:\java_project\AutoTest\target\classes;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\soft\apache-maven-3.8.2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;D:\soft\apache-maven-3.8.2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;D:\soft\apache-maven-3.8.2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;D:\soft\apache-maven-3.8.2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;D:\soft\apache-maven-3.8.2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;D:\soft\apache-maven-3.8.2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;D:\soft\apache-maven-3.8.2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;D:\soft\apache-maven-3.8.2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\logging\log4j\log4j-1.2-api\2.12.1\log4j-1.2-api-2.12.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;D:\soft\apache-maven-3.8.2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;D:\soft\apache-maven-3.8.2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;D:\soft\apache-maven-3.8.2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;D:\soft\apache-maven-3.8.2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;D:\soft\apache-maven-3.8.2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;D:\soft\apache-maven-3.8.2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;D:\soft\apache-maven-3.8.2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;D:\soft\apache-maven-3.8.2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;D:\soft\apache-maven-3.8.2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;D:\soft\apache-maven-3.8.2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;D:\soft\apache-maven-3.8.2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;D:\soft\apache-maven-3.8.2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\soft\apache-maven-3.8.2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;D:\soft\apache-maven-3.8.2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;D:\soft\apache-maven-3.8.2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;D:\soft\apache-maven-3.8.2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;D:\soft\apache-maven-3.8.2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;D:\soft\apache-maven-3.8.2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;D:\soft\apache-maven-3.8.2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;D:\soft\apache-maven-3.8.2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;D:\soft\apache-maven-3.8.2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;D:\soft\apache-maven-3.8.2\repository\com\alibaba\fastjson\1.2.75\fastjson-1.2.75.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\axis2\axis2-kernel\1.7.9\axis2-kernel-1.7.9.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\ws\commons\axiom\axiom-api\1.2.21\axiom-api-1.2.21.jar;D:\soft\apache-maven-3.8.2\repository\jaxen\jaxen\1.1.6\jaxen-1.1.6.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0.1\geronimo-stax-api_1.0_spec-1.0.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\james\apache-mime4j-core\0.7.2\apache-mime4j-core-0.7.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\ws\commons\axiom\axiom-impl\1.2.21\axiom-impl-1.2.21.jar;D:\soft\apache-maven-3.8.2\repository\org\codehaus\woodstox\woodstox-core-asl\4.2.0\woodstox-core-asl-4.2.0.jar;D:\soft\apache-maven-3.8.2\repository\org\codehaus\woodstox\stax2-api\3.1.1\stax2-api-3.1.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\geronimo\specs\geronimo-ws-metadata_2.0_spec\1.1.2\geronimo-ws-metadata_2.0_spec-1.1.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\geronimo\specs\geronimo-jta_1.1_spec\1.1\geronimo-jta_1.1_spec-1.1.jar;D:\soft\apache-maven-3.8.2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;D:\soft\apache-maven-3.8.2\repository\commons-fileupload\commons-fileupload\1.3.3\commons-fileupload-1.3.3.jar;D:\soft\apache-maven-3.8.2\repository\wsdl4j\wsdl4j\1.6.2\wsdl4j-1.6.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\ws\xmlschema\xmlschema-core\2.2.1\xmlschema-core-2.2.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\neethi\neethi\3.0.3\neethi-3.0.3.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\woden\woden-core\1.0M10\woden-core-1.0M10.jar;D:\soft\apache-maven-3.8.2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\axis2\axis2-transport-http\1.7.9\axis2-transport-http-1.7.9.jar;D:\soft\apache-maven-3.8.2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\axis2\axis2-adb\1.7.9\axis2-adb-1.7.9.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\ws\commons\axiom\axiom-dom\1.2.21\axiom-dom-1.2.21.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\geronimo\specs\geronimo-activation_1.1_spec\1.0.2\geronimo-activation_1.1_spec-1.0.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\axis2\axis2-transport-local\1.7.9\axis2-transport-local-1.7.9.jar;D:\soft\apache-maven-3.8.2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;D:\soft\apache-maven-3.8.2\repository\javax\activation\activation\1.1\activation-1.1.jar;D:\soft\apache-maven-3.8.2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;D:\soft\apache-maven-3.8.2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\soft\apache-maven-3.8.2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;D:\soft\apache-maven-3.8.2\repository\io\qameta\allure\allure-testng\2.13.2\allure-testng-2.13.2.jar;D:\soft\apache-maven-3.8.2\repository\io\qameta\allure\allure-java-commons\2.13.2\allure-java-commons-2.13.2.jar;D:\soft\apache-maven-3.8.2\repository\io\qameta\allure\allure-model\2.13.2\allure-model-2.13.2.jar;D:\soft\apache-maven-3.8.2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;D:\soft\apache-maven-3.8.2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\soft\apache-maven-3.8.2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;D:\soft\apache-maven-3.8.2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;D:\soft\apache-maven-3.8.2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;D:\soft\apache-maven-3.8.2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\45360\AppData\Local\Temp\surefire1558239532574532888\surefirebooter3851192414526660089.jar C:\Users\45360\AppData\Local\Temp\surefire1558239532574532888 2021-10-20T22-16-21_325-jvmRun1 surefire3624655175939337345tmp surefire_05104688835583542333tmp"/>
+    <property name="surefire.test.class.path" value="D:\java_project\AutoTest\target\test-classes;D:\java_project\AutoTest\target\classes;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;D:\soft\apache-maven-3.8.2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\soft\apache-maven-3.8.2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;D:\soft\apache-maven-3.8.2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;D:\soft\apache-maven-3.8.2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;D:\soft\apache-maven-3.8.2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;D:\soft\apache-maven-3.8.2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;D:\soft\apache-maven-3.8.2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;D:\soft\apache-maven-3.8.2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;D:\soft\apache-maven-3.8.2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\logging\log4j\log4j-1.2-api\2.12.1\log4j-1.2-api-2.12.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;D:\soft\apache-maven-3.8.2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;D:\soft\apache-maven-3.8.2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;D:\soft\apache-maven-3.8.2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;D:\soft\apache-maven-3.8.2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;D:\soft\apache-maven-3.8.2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;D:\soft\apache-maven-3.8.2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;D:\soft\apache-maven-3.8.2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;D:\soft\apache-maven-3.8.2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;D:\soft\apache-maven-3.8.2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;D:\soft\apache-maven-3.8.2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;D:\soft\apache-maven-3.8.2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;D:\soft\apache-maven-3.8.2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\soft\apache-maven-3.8.2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;D:\soft\apache-maven-3.8.2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;D:\soft\apache-maven-3.8.2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;D:\soft\apache-maven-3.8.2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;D:\soft\apache-maven-3.8.2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;D:\soft\apache-maven-3.8.2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;D:\soft\apache-maven-3.8.2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;D:\soft\apache-maven-3.8.2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;D:\soft\apache-maven-3.8.2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;D:\soft\apache-maven-3.8.2\repository\com\alibaba\fastjson\1.2.75\fastjson-1.2.75.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\axis2\axis2-kernel\1.7.9\axis2-kernel-1.7.9.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\ws\commons\axiom\axiom-api\1.2.21\axiom-api-1.2.21.jar;D:\soft\apache-maven-3.8.2\repository\jaxen\jaxen\1.1.6\jaxen-1.1.6.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0.1\geronimo-stax-api_1.0_spec-1.0.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\james\apache-mime4j-core\0.7.2\apache-mime4j-core-0.7.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\ws\commons\axiom\axiom-impl\1.2.21\axiom-impl-1.2.21.jar;D:\soft\apache-maven-3.8.2\repository\org\codehaus\woodstox\woodstox-core-asl\4.2.0\woodstox-core-asl-4.2.0.jar;D:\soft\apache-maven-3.8.2\repository\org\codehaus\woodstox\stax2-api\3.1.1\stax2-api-3.1.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\geronimo\specs\geronimo-ws-metadata_2.0_spec\1.1.2\geronimo-ws-metadata_2.0_spec-1.1.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\geronimo\specs\geronimo-jta_1.1_spec\1.1\geronimo-jta_1.1_spec-1.1.jar;D:\soft\apache-maven-3.8.2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;D:\soft\apache-maven-3.8.2\repository\commons-fileupload\commons-fileupload\1.3.3\commons-fileupload-1.3.3.jar;D:\soft\apache-maven-3.8.2\repository\wsdl4j\wsdl4j\1.6.2\wsdl4j-1.6.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\ws\xmlschema\xmlschema-core\2.2.1\xmlschema-core-2.2.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\neethi\neethi\3.0.3\neethi-3.0.3.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\woden\woden-core\1.0M10\woden-core-1.0M10.jar;D:\soft\apache-maven-3.8.2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\axis2\axis2-transport-http\1.7.9\axis2-transport-http-1.7.9.jar;D:\soft\apache-maven-3.8.2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\axis2\axis2-adb\1.7.9\axis2-adb-1.7.9.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\ws\commons\axiom\axiom-dom\1.2.21\axiom-dom-1.2.21.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\geronimo\specs\geronimo-activation_1.1_spec\1.0.2\geronimo-activation_1.1_spec-1.0.2.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\axis2\axis2-transport-local\1.7.9\axis2-transport-local-1.7.9.jar;D:\soft\apache-maven-3.8.2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;D:\soft\apache-maven-3.8.2\repository\javax\activation\activation\1.1\activation-1.1.jar;D:\soft\apache-maven-3.8.2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;D:\soft\apache-maven-3.8.2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\soft\apache-maven-3.8.2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;D:\soft\apache-maven-3.8.2\repository\io\qameta\allure\allure-testng\2.13.2\allure-testng-2.13.2.jar;D:\soft\apache-maven-3.8.2\repository\io\qameta\allure\allure-java-commons\2.13.2\allure-java-commons-2.13.2.jar;D:\soft\apache-maven-3.8.2\repository\io\qameta\allure\allure-model\2.13.2\allure-model-2.13.2.jar;D:\soft\apache-maven-3.8.2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;D:\soft\apache-maven-3.8.2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;D:\soft\apache-maven-3.8.2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;D:\soft\apache-maven-3.8.2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;D:\soft\apache-maven-3.8.2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;D:\soft\apache-maven-3.8.2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;D:\soft\apache-maven-3.8.2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\45360"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_301\jre"/>
+    <property name="basedir" value="D:\java_project\AutoTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\45360\AppData\Local\Temp\surefire1558239532574532888\surefirebooter3851192414526660089.jar;D:\soft\apache-maven-3.8.2\repository/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_301-b09"/>
+    <property name="user.name" value="45360"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\soft\apache-maven-3.8.2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\45360\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_301"/>
+    <property name="user.dir" value="D:\java_project\AutoTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;D:\soft\NetSarang\Xftp 7\;&quot;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files\Java\jdk1.8.0_301\jre\bin&quot;;D:\soft\apache-maven-3.8.2\bin;D:\soft\android-sdk-windows\platform-tools;D:\soft\android-sdk-windows\tools;C:\Program Files\Git\cmd;C:\Users\45360\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\45360\AppData\Local\Programs\Python\Python38\;C:\Users\45360\AppData\Local\Microsoft\WindowsApps;D:\soft\Fiddler;D:\soft\JetBrains\IntelliJ IDEA Community Edition 2021.2.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.301-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test1" classname="com.lizheng.test.demoTestNG" time="0.151"/>
+  <testcase name="test2" classname="com.lizheng.test.demoTestNG" time="0.012"/>
+  <testcase name="test1" classname="com.lizheng.test.sendMailTestNG" time="0"/>
+  <testcase name="test2" classname="com.lizheng.test.sendMailTestNG" time="0.011"/>
+  <testcase name="createConnection" classname="com.lizheng.test.TestParameterXML" time="0.004"/>
+  <testcase name="test" classname="com.lizheng.test.TestParameterDataProvider" time="0.01"/>
+  <testcase name="test" classname="com.lizheng.test.TestParameterDataProvider" time="0.011">
+    <failure message="expected [120] but found [110]" type="java.lang.AssertionError">java.lang.AssertionError: expected [120] but found [110]
+	at com.lizheng.test.TestParameterDataProvider.test(TestParameterDataProvider.java:10)
+</failure>
+  </testcase>
+  <testcase name="test" classname="com.lizheng.test.TestParameterDataProvider" time="0"/>
+  <testcase name="testConnection" classname="com.lizheng.test.TestParameterDataProvider2" time="0.01"/>
+  <testcase name="test1" classname="com.lizheng.test.TestParameterDataProvider3" time="0"/>
+  <testcase name="test1" classname="com.lizheng.test.TestParameterDataProvider3" time="0.003"/>
+  <testcase name="test2" classname="com.lizheng.test.TestParameterDataProvider3" time="0.011"/>
+  <testcase name="test2" classname="com.lizheng.test.TestParameterDataProvider3" time="0.071"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="1.925"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.129"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.012"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.005"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.077"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.007"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.09"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.012"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.093"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.062"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.091"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.003"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.093"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.013"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.014"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.088"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.008"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.085"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.016"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.093"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.012"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.093"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.02"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.09"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.072"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.097"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.092"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.083"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.094"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0">
+    <failure message="expected [pass] but found [fail]" type="java.lang.AssertionError">java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+</failure>
+    <system-out><![CDATA[47			assertJsonEqual	$.status	401				
+2021/10/20 22:16:30,926  [ERROR] : 解析json并断言失败!!!
+2021/10/20 22:16:30,926  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+]]></system-out>
+  </testcase>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.109"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.095"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.005">
+    <failure message="expected [pass] but found [fail]" type="java.lang.AssertionError">java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+</failure>
+    <system-out><![CDATA[51			assertJsonEqual	$.status	200				
+2021/10/20 22:16:31,140  [ERROR] : 解析json并断言失败!!!
+2021/10/20 22:16:31,145  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+]]></system-out>
+  </testcase>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.096"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.104"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.096"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.16"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.007"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.094"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.091"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.02"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.093"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.106"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0">
+    <failure message="expected [pass] but found [fail]" type="java.lang.AssertionError">java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+</failure>
+    <system-out><![CDATA[67			assertJsonEqual	$.status	401				
+2021/10/20 22:16:32,066  [ERROR] : 解析json并断言失败!!!
+2021/10/20 22:16:32,066  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+]]></system-out>
+  </testcase>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.083"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.091"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01">
+    <failure message="expected [pass] but found [fail]" type="java.lang.AssertionError">java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+</failure>
+    <system-out><![CDATA[71			assertJsonEqual	$.status	401				
+2021/10/20 22:16:32,273  [ERROR] : 解析json并断言失败!!!
+2021/10/20 22:16:32,273  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+]]></system-out>
+  </testcase>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.091"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.012"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.101"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.103"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.095"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.101"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.071"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.081"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.012"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.103"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.091"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011">
+    <failure message="expected [pass] but found [fail]" type="java.lang.AssertionError">java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+</failure>
+    <system-out><![CDATA[87			assertJsonEqual	$.status	401				
+2021/10/20 22:16:33,196  [ERROR] : 解析json并断言失败!!!
+2021/10/20 22:16:33,196  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:58)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+]]></system-out>
+  </testcase>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.101"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.082"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.091"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.095"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.104"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.084"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.092"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.065"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.085"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.013"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.003"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.104"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.002"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.103"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.085"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.012"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.001"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.104"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.001"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.092"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.101"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.134"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.103"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.083"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.091"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.092"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.082"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.082"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.062"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.104"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.092"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01">
+    <failure message="expected [pass] but found [fail]" type="java.lang.AssertionError">java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+</failure>
+    <system-out><![CDATA[153		assertJsonEqual	$.msg	恭喜您，登录成功					
+]]></system-out>
+  </testcase>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.095"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.092"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.088"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.001"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.016"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.095"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01">
+    <failure message="expected [pass] but found [fail]" type="java.lang.AssertionError">java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+</failure>
+    <system-out><![CDATA[166			assertJsonEqual	$.status	200				
+2021/10/20 22:16:36,406  [ERROR] : 解析json并断言失败!!!
+2021/10/20 22:16:36,406  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> Not Found</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+]]></system-out>
+  </testcase>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.099"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.102"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.011"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.145"/>
+  <testcase name="autoTest" classname="com.lizheng.test.AutoTestFrameTestNG" time="0.01"/>
+</testsuite>

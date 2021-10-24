@@ -1,0 +1,5 @@
+2021/10/09 23:37:27,092  [INFO ] : 通过定位xpath"//select[@name='cat_id_3']"并选择select的值"287"成功！！！
+2021/10/09 23:37:27,272  [INFO ] : 通过xpath"//input[@name='shop_price']"定位并输入内容"299.98"成功！！！
+2021/10/09 23:37:27,433  [INFO ] : 通过xpath"//input[@name='market_price']"定位并输入内容"688.00"成功！！！
+2021/10/09 23:37:27,589  [INFO ] : 点击xpath元素："//*[@id='addEditGoodsForm']/div[1]/dl[13]/dd/div"成功！！！
+2021/10/09 23:37:27,949  [INFO ] : 切换到id或name为"layui-layer-iframe1"的iframe成功！！！

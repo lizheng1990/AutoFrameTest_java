@@ -1,0 +1,38 @@
+2021/10/20 22:15:39,077  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:39,097  [INFO ] : 解析的实际结果是：非法请求
+2021/10/20 22:15:39,097  [INFO ] : 校验成功!!!
+2021/10/20 22:15:39,108  [INFO ] : 清除header成功!!!
+2021/10/20 22:15:39,200  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:39,210  [INFO ] : 解析的实际结果是：200
+2021/10/20 22:15:39,210  [INFO ] : 校验成功!!!
+2021/10/20 22:15:39,220  [INFO ] : 存储参数a3b845d834564373b331ec0f52c9ca1b为token的值成功!!!
+2021/10/20 22:15:39,231  [INFO ] : 添加header成功!!!
+2021/10/20 22:15:39,324  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:39,335  [INFO ] : 解析的实际结果是：200
+2021/10/20 22:15:39,335  [INFO ] : 校验成功!!!
+2021/10/20 22:15:39,345  [INFO ] : 添加header成功!!!
+2021/10/20 22:15:39,449  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:39,460  [INFO ] : 解析的实际结果是：406
+2021/10/20 22:15:39,460  [INFO ] : 校验成功!!!
+2021/10/20 22:15:39,553  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/20 22:15:39,574  [INFO ] : 解析的实际结果是：200
+2021/10/20 22:15:39,574  [INFO ] : 校验成功!!!
+2021/10/20 22:15:39,584  [INFO ] : 清除header成功!!!
+2021/10/20 22:15:39,733  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:39,733  [INFO ] : 解析的实际结果是：200
+2021/10/20 22:15:39,733  [INFO ] : 校验成功!!!
+2021/10/20 22:15:39,745  [INFO ] : 存储参数663c0a139d8d4860a6f5e76d32ddb27b为token的值成功!!!
+2021/10/20 22:15:39,756  [INFO ] : 添加header成功!!!
+2021/10/20 22:15:39,858  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:39,869  [ERROR] : 解析json并断言失败!!!
+2021/10/20 22:15:39,869  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/20 22:15:39,962  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:39,972  [INFO ] : 解析的实际结果是：402
+2021/10/20 22:15:39,972  [INFO ] : 校验成功!!!

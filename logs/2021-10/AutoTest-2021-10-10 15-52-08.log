@@ -1,0 +1,4 @@
+2021/10/10 15:52:08,109  [INFO ] : 打开chrome浏览器成功！！！
+2021/10/10 15:52:08,649  [INFO ] : 访问网页http://8.142.92.43/index.php/Admin/Admin/login成功！！！
+2021/10/10 15:52:08,796  [INFO ] : 通过xpath"//input[@name='username']"定位并输入内容"admin"成功！！！
+2021/10/10 15:52:08,927  [INFO ] : 通过xpath"//input[@name='password']"定位并输入内容"123456"成功！！！

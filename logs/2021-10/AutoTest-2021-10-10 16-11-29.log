@@ -1,0 +1,56 @@
+2021/10/10 16:11:29,043  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 16:11:29,059  [INFO ] : 解析的实际结果是：非法请求
+2021/10/10 16:11:29,059  [INFO ] : 校验成功!!!
+2021/10/10 16:11:29,062  [INFO ] : 添加header成功!!!
+2021/10/10 16:11:29,145  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 16:11:29,147  [INFO ] : 解析的实际结果是：非法请求
+2021/10/10 16:11:29,147  [INFO ] : 校验成功!!!
+2021/10/10 16:11:29,151  [INFO ] : 添加header成功!!!
+2021/10/10 16:11:29,237  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 16:11:29,239  [INFO ] : 解析的实际结果是：非法请求
+2021/10/10 16:11:29,240  [INFO ] : 校验成功!!!
+2021/10/10 16:11:29,242  [INFO ] : 清除header成功!!!
+2021/10/10 16:11:29,338  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 16:11:29,340  [INFO ] : 解析的实际结果是：200
+2021/10/10 16:11:29,340  [INFO ] : 校验成功!!!
+2021/10/10 16:11:29,342  [INFO ] : 存储参数79183f08fc05463da352c9256db41bbd为token的值成功!!!
+2021/10/10 16:11:29,345  [INFO ] : 添加header成功!!!
+2021/10/10 16:11:29,438  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 16:11:29,441  [INFO ] : 解析的实际结果是：200
+2021/10/10 16:11:29,442  [INFO ] : 校验成功!!!
+2021/10/10 16:11:29,444  [INFO ] : 添加header成功!!!
+2021/10/10 16:11:29,531  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 16:11:29,533  [INFO ] : 解析的实际结果是：406
+2021/10/10 16:11:29,533  [INFO ] : 校验成功!!!
+2021/10/10 16:11:29,622  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/10 16:11:29,623  [INFO ] : 解析的实际结果是：200
+2021/10/10 16:11:29,624  [INFO ] : 校验成功!!!
+2021/10/10 16:11:29,626  [INFO ] : 清除header成功!!!
+2021/10/10 16:11:29,714  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 16:11:29,715  [INFO ] : 解析的实际结果是：200
+2021/10/10 16:11:29,715  [INFO ] : 校验成功!!!
+2021/10/10 16:11:29,716  [INFO ] : 存储参数69a088a816f2494a908f1c13cdfdfd67为token的值成功!!!
+2021/10/10 16:11:29,717  [INFO ] : 添加header成功!!!
+2021/10/10 16:11:29,808  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 16:11:29,812  [ERROR] : 解析json并断言失败!!!
+2021/10/10 16:11:29,812  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/10 16:11:29,894  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 16:11:29,896  [INFO ] : 解析的实际结果是：402
+2021/10/10 16:11:29,897  [INFO ] : 校验成功!!!
+2021/10/10 16:11:29,992  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/10 16:11:29,995  [ERROR] : 解析json并断言失败!!!
+2021/10/10 16:11:29,995  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>

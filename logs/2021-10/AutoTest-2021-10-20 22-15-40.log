@@ -1,0 +1,32 @@
+2021/10/20 22:15:40,066  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:40,087  [ERROR] : 解析json并断言失败!!!
+2021/10/20 22:15:40,087  [ERROR] : com.alibaba.fastjson.JSONException: syntax error, pos 1, line 1, column 2<!doctype html><html lang="en"><head><title>HTTP Status 500 – Internal Server Error</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 500 – Internal Server Error</h1><hr class="line" /><p><b>Type</b> Exception Report</p><p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p><p><b>Exception</b></p><pre>java.lang.NullPointerException
+	java.net.URLDecoder.decode(URLDecoder.java:136)
+	java.net.URLDecoder.decode(URLDecoder.java:100)
+	com.testingedu.http.login.doPost(login.java:59)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+</pre><p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p><hr class="line" /><h3>Apache Tomcat/8.5.66</h3></body></html>
+2021/10/20 22:15:40,169  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:40,180  [INFO ] : 解析的实际结果是：200
+2021/10/20 22:15:40,180  [INFO ] : 校验成功!!!
+2021/10/20 22:15:40,297  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:40,322  [INFO ] : 解析的实际结果是：200
+2021/10/20 22:15:40,322  [INFO ] : 校验成功!!!
+2021/10/20 22:15:40,406  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:40,419  [INFO ] : 解析的实际结果是：402
+2021/10/20 22:15:40,419  [INFO ] : 校验成功!!!
+2021/10/20 22:15:40,512  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:40,533  [INFO ] : 解析的实际结果是：401
+2021/10/20 22:15:40,533  [INFO ] : 校验成功!!!
+2021/10/20 22:15:40,622  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:40,645  [INFO ] : 解析的实际结果是：401
+2021/10/20 22:15:40,645  [INFO ] : 校验成功!!!
+2021/10/20 22:15:40,738  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:40,748  [INFO ] : 解析的实际结果是：402
+2021/10/20 22:15:40,748  [INFO ] : 校验成功!!!
+2021/10/20 22:15:40,892  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！
+2021/10/20 22:15:40,902  [INFO ] : 解析的实际结果是：402
+2021/10/20 22:15:40,902  [INFO ] : 校验成功!!!
+2021/10/20 22:15:40,994  [INFO ] : 执行x-www-form-urlencoded类型的post请求成功！！！

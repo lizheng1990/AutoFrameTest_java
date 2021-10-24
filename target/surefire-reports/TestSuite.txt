@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 186, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 14.92 s <<< FAILURE! - in TestSuite
+test(com.lizheng.test.TestParameterDataProvider)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: expected [120] but found [110]
+	at com.lizheng.test.TestParameterDataProvider.test(TestParameterDataProvider.java:10)
+
+autoTest(com.lizheng.test.AutoTestFrameTestNG)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+
+autoTest(com.lizheng.test.AutoTestFrameTestNG)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+
+autoTest(com.lizheng.test.AutoTestFrameTestNG)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+
+autoTest(com.lizheng.test.AutoTestFrameTestNG)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+
+autoTest(com.lizheng.test.AutoTestFrameTestNG)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+
+autoTest(com.lizheng.test.AutoTestFrameTestNG)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+
+autoTest(com.lizheng.test.AutoTestFrameTestNG)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.lizheng.test.AutoTestFrameTestNG.autoTest(AutoTestFrameTestNG.java:29)
+

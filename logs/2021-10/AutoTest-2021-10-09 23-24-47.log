@@ -1,0 +1,398 @@
+2021/10/09 23:24:47,317  [ERROR] : 打开chrome浏览器失败！！！
+2021/10/09 23:24:47,371  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.openBrowser(DDTOfWeb.java:83) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,401  [ERROR] : 访问网页http://8.142.92.43/index.php/Admin/Admin/login失败！！！
+2021/10/09 23:24:47,402  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.visitURL(DDTOfWeb.java:223) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,417  [ERROR] : 通过xpath"//input[@name='username']"定位并输入内容"admin"失败！！！
+2021/10/09 23:24:47,421  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:318) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,423  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:319) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,430  [ERROR] : 通过xpath"//input[@name='password']"定位并输入内容"123456"失败！！！
+2021/10/09 23:24:47,431  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:318) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,433  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:319) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,494  [ERROR] : 通过xpath"//*[@id='vertify']"定位并输入内容"1"失败！！！
+2021/10/09 23:24:47,495  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:318) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,495  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:319) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,499  [ERROR] : 点击xpath元素："//input[@name='submit']"失败！！！
+2021/10/09 23:24:47,499  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.click(DDTOfWeb.java:261) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,501  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.click(DDTOfWeb.java:262) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,509  [ERROR] : 点击xpath元素："//li[@data-param='shop']/a"失败！！！
+2021/10/09 23:24:47,509  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.click(DDTOfWeb.java:261) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,510  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.click(DDTOfWeb.java:262) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,516  [ERROR] : 切换到id或name为"workspace"的iframe失败！！！
+2021/10/09 23:24:47,517  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.switchIframe(DDTOfWeb.java:438) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,518  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.switchIframe(DDTOfWeb.java:439) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,522  [ERROR] : 点击xpath元素："//div[@title='添加商品']"失败！！！
+2021/10/09 23:24:47,524  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.click(DDTOfWeb.java:261) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,524  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.click(DDTOfWeb.java:262) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,530  [ERROR] : 通过xpath"//input[@name='goods_name']"定位并输入内容"testGOOD"失败！！！
+2021/10/09 23:24:47,531  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:318) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,532  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:319) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,540  [ERROR] : 通过xpath"//textarea[@name='goods_remark']"定位并输入内容"测试商品简介"失败！！！
+2021/10/09 23:24:47,541  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:318) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,542  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:319) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,547  [ERROR] : 通过xpath"//input[@name='goods_sn']"定位并输入内容"TP_TEST_0000001"失败！！！
+2021/10/09 23:24:47,548  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:318) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,549  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:319) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,562  [ERROR] : 通过定位xpath"//select[@name='cat_id']"并选择select的第3个选项失败！！！
+2021/10/09 23:24:47,562  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.selectByIndex(DDTOfWeb.java:610) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,563  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.selectByIndex(DDTOfWeb.java:611) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,590  [ERROR] : 通过定位xpath"//select[@name='cat_id_2']"并选择select的文本内容"生活日品"失败！！！
+2021/10/09 23:24:47,591  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.selectByContent(DDTOfWeb.java:588) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,593  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.selectByContent(DDTOfWeb.java:589) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,597  [ERROR] : 通过定位xpath"//select[@name='cat_id_3']"并选择select的值"287"失败！！！
+2021/10/09 23:24:47,599  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.selectByValue(DDTOfWeb.java:567) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,601  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.selectByValue(DDTOfWeb.java:568) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,611  [ERROR] : 通过xpath"//input[@name='shop_price']"定位并输入内容"299.98"失败！！！
+2021/10/09 23:24:47,612  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:318) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,612  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:319) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,621  [ERROR] : 通过xpath"//input[@name='market_price']"定位并输入内容"688.00"失败！！！
+2021/10/09 23:24:47,622  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:318) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,624  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.input(DDTOfWeb.java:319) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:70) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,635  [ERROR] : 点击xpath元素："//*[@id='addEditGoodsForm']/div[1]/dl[13]/dd/div"失败！！！
+2021/10/09 23:24:47,636  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.click(DDTOfWeb.java:261) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,639  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.click(DDTOfWeb.java:262) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,643  [ERROR] : 切换到id或name为"layui-layer-iframe1"的iframe失败！！！
+2021/10/09 23:24:47,643  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.switchIframe(DDTOfWeb.java:438) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,644  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.switchIframe(DDTOfWeb.java:439) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,651  [ERROR] : 点击xpath元素："//*[@id='filePicker']/div/label"失败！！！
+2021/10/09 23:24:47,653  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.saveScrshot(DDTOfWeb.java:737) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.saveErrShot(DDTOfWeb.java:747) [classes/:?]
+	at com.lizheng.keyWord.DDTOfWeb.click(DDTOfWeb.java:261) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]
+2021/10/09 23:24:47,654  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.lizheng.keyWord.DDTOfWeb.click(DDTOfWeb.java:262) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_301]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_301]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_301]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.invokeInter(testDDTOfWebByInvoke.java:63) [classes/:?]
+	at com.lizheng.testWeb.testDDTOfWebByInvoke.main(testDDTOfWebByInvoke.java:39) [classes/:?]

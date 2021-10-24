@@ -1,0 +1,19 @@
+2021/10/10 12:35:34,572  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/10 12:35:34,600  [INFO ] : {"status":200,"msg":"success","token":"bbf3607a1a77449fb713fbba839108dc"}
+2021/10/10 12:35:34,727  [INFO ] : 存储参数bbf3607a1a77449fb713fbba839108dc为token的值成功!!!
+2021/10/10 12:35:34,728  [INFO ] : 添加header成功!!!
+2021/10/10 12:35:34,728  [INFO ] : 使用cookie成功!!!
+2021/10/10 12:35:34,728  [INFO ] : 获取13位时间戳成功！！！
+2021/10/10 12:35:34,728  [INFO ] : 存储参数test4728为registername的值成功!!!
+2021/10/10 12:35:34,729  [ERROR] : 执行无请求体的post请求失败！！！
+2021/10/10 12:35:34,730  [ERROR] : java.lang.IllegalArgumentException: Illegal character in path at index 40: http://8.142.92.43:8080/Inter/REST/user/{"name":"test4728","pwd":"123456","nickname":"test4728","describe":"测试号码"}
+2021/10/10 12:35:34,730  [INFO ] : {"status":200,"msg":"success","token":"bbf3607a1a77449fb713fbba839108dc"}
+2021/10/10 12:35:34,820  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/10 12:35:34,820  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+2021/10/10 12:35:34,821  [ERROR] : 存储参数时解析json失败！！！
+2021/10/10 12:35:34,822  [ERROR] : java.lang.NullPointerException
+2021/10/10 12:35:34,823  [ERROR] : 执行无请求体的post请求失败！！！
+2021/10/10 12:35:34,824  [ERROR] : java.lang.IllegalArgumentException: Illegal character in path at index 41: http://8.142.92.43:8080/Inter/REST/login/{{userid}}
+2021/10/10 12:35:34,824  [INFO ] : {"status":401,"msg":"用户名密码错误"}
+2021/10/10 12:35:34,904  [INFO ] : 执行无请求体的post请求成功！！！
+2021/10/10 12:35:34,904  [INFO ] : {"status":200,"msg":"用户已退出登录"}

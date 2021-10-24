@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <test thread-count="5" verbose="0" name="TestParameterDataProvider(failed)">
+    <classes>
+      <class name="com.lizheng.test.TestParameterDataProvider">
+        <methods>
+          <include name="test" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.lizheng.test.TestParameterDataProvider -->
+    </classes>
+  </test> <!-- TestParameterDataProvider(failed) -->
+  <test thread-count="5" verbose="0" name="AutoTestFrameTestNG(failed)">
+    <classes>
+      <class name="com.lizheng.test.AutoTestFrameTestNG">
+        <methods>
+          <include name="autoTest" invocation-numbers="46 50 66 70 86 152 165"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.lizheng.test.AutoTestFrameTestNG -->
+    </classes>
+  </test> <!-- AutoTestFrameTestNG(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
